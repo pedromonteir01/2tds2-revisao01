@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="script/script.index.js"></script>
     <title>Índice de massa corporal</title>
 </head>
+
 <body>
     <main>
         <section id="picture">
@@ -15,8 +17,22 @@
         <section id="form">
             <div id="calculator">
                 <h1 id="title">calculadora - IMC</h1>
+
+                <div class="input-box">
+                    <label for="weight">Peso em kg</label>
+                    <div id="input-field">
+                        <input type="number" id="weight" name="weight" required>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="">Altura em metros</label>
+                    <div id="input-field">
+                        <input type="number" id="height" name="height" required>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
